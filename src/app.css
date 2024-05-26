@@ -1,3 +1,5 @@
+/* CSS Reset all styles to basic */
+
 html, body, div, span, applet, object, iframe, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
 a, abbr, acronym, address, big, cite, code, 
@@ -41,4 +43,25 @@ q:before, q:after{
 table{
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+/* Added styles */
+html{
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+body{
+    background-color: #60A9FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.panel{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
 }
